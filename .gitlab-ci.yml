@@ -1,0 +1,6 @@
+stages:
+  - test
+
+test:
+  stage: test
+  script: echo 'this should run on pull requests'
